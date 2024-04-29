@@ -1,0 +1,30 @@
+#wrapper{
+    display:grid;
+    grid-template-areas: "header header header"
+                         "main nav sidebar"
+                         "main nav sidebar"
+                         "footer footer footer";
+}
+div{
+    border:1px solid black;
+}
+#header{
+    grid-area:header;
+    background-color: aqua;
+}
+#nav{
+    grid-area:nav;
+    background-color: blueviolet;
+}
+#main{
+    grid-area:main;
+    background-color: orange;
+}
+#sidebar{
+    grid-area:sidebar;
+    background-color: cornflowerblue;
+}
+#footer{
+    grid-area:footer;
+    background-color: cyan; 
+}
